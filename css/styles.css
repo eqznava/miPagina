@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+}
+
+.Header{
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  background-image: url("../images/fondo_encabezado.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 26rem;
+  width: 100%;
+  box-shadow: 0 7px 15px #000;
+  position: relative;
+  z-index: 0;
+}
+
+.Navbar__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  margin: 0.4rem;
+  height: 5rem;
+  width: 95%;
+  background: rgba(0, 0, 0, 0.5);
+  border:1px solid silver;
+  border-radius: 1rem;
+}
+
+.Header__img{
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  transition-property: box-shadow;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+  cursor: pointer;
+}
+
+.Header__img:hover{
+  box-shadow: 0 0 8px #fff;
+}
+
+.Navbar__ol{
+  display: flex;
+  font-family:helvetica;
+  font-size: 1.5rem;
+}
+
+.Navabar__li{
+  margin: 0 2rem;
+  list-style: none;
+}
+
+.Navbar__a{
+  text-decoration: none;
+  color: white;
+  transition-property: color;
+  transition-duration: 100ms;
+  transition-timing-function: ease;
+}
+
+.Navbar__a:hover{
+  color: red;
+}
+
+.Header__title{
+  font-size:5rem;
+  font-family:helvetica;
+  margin-top:4rem;
+  margin-bottom: 0;
+  color:black;
+  text-shadow: 0 4px 3px #fff;
+}
+
+.Quienes__somos{
+  width: 75rem;
+  height: 50rem;
+  border:1px solid silver;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3rem;
+  margin-bottom: -4rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px #000;
+  position: relative;
+  z-index: 1;
+}
+
+.Contacto{
+  height: 20rem;
+  width: 100%;
+  margin: 0;
+  border: 1px solid silver;
+  background: black;
+  position: relative;
+  z-index: 0;
+}
