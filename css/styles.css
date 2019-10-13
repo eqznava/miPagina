@@ -339,3 +339,112 @@ body{
 .Social:hover{
   opacity: 1;
 }
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+  .Caracteristicas__title{
+    font-size: 2.8rem;
+  }
+
+  .Caracteristicas__container{
+    margin: 0 2em;
+  }
+
+  .Contacto__gmail{
+    display: contents;
+  }
+
+  .Contacto__cellphone{
+    display: contents;
+  }
+}
+
+@media screen and (max-width:768px) and (min-width:480px) {
+
+  .Quienes__somos-title{
+    font-size: 2.4rem;
+  }
+
+  .Caracteristicas__title{
+    font-size: 2.2rem;
+    margin-top: 1em;
+  }
+
+  .Container__caract-uno{
+    flex-direction: column;
+  }
+
+  .Descripcion__text{
+    font-size: 1.3rem;
+  }
+
+  .Developers__title{
+    margin-top: 0.1em;
+    font-size: 2.2rem;
+  }
+
+  .Developers__img{
+    height: 6.25em;
+  }
+
+  .Developers__name{
+    font-size: 1.8rem;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+
+  .Developers__jobtitle{
+    font-size: 1.2rem;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+
+  .Contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  .Contact__title{
+    font-size: 2.2rem;
+    margin-top: 1em;
+  }
+
+  .Contacto__gmail-img{
+    height: 3em;
+    width: 3em;
+  }
+
+  .Contacto__gmail{
+    margin: 0 4em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .Contacto__gmail-url{
+    font-size: 1rem;
+  }
+
+  .Contacto__cellphone{
+    margin: 0 4em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .Contacto__cellphone-num{
+    font-size: 1rem;
+  }
+
+  .Copy__copyrigth{
+    font-size: 1.2rem;
+  }
+
+  .Social{
+    margin: 0.5em 0.7em;
+  }
+}
+
+@media screen and (min-width:320px) and (max-width:479px) {
+
+}
